@@ -1,4 +1,4 @@
 # bouYear2024
 bouYearParty2024 for sysrdc
 
-開発者さとうれい
+開発者おさり
