@@ -16,7 +16,7 @@ class User(Base):
     first_name: ユーザーの名  
     last_name: ユーザーの姓  
     affiliation: 所属  
-    role: 役職(admin or participant)  
+    is_admin: 管理者かどうか
     """
     __tablename__ = "users"
 
@@ -24,7 +24,7 @@ class User(Base):
     first_name = Column(String(255), not_null=True)
     last_name = Column(String(255), not_null=True)
     affiliation = Column(String(255), not_null=True)
-    role = Column(String(255), not_null=True)
+    is_admin = Column(Boolean, not_null=True)
 
 
 class Questions(Base):
