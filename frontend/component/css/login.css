@@ -1,0 +1,10 @@
+.blur {
+    background-color: rgba(19, 19, 19, 0.57); /* 色: #131313, 透明度: 57% */
+    width: 343px;
+    height: 545px;
+    border-radius: 12px; /* 角の丸み */
+    position: absolute;
+    top: 62px;
+    left: 16px;
+  }
+  
